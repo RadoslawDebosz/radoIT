@@ -200,12 +200,17 @@ let currentLang = (localStorage.getItem('radoit_lang') || 'de').toLowerCase();
 if (!['de','pl'].includes(currentLang)) currentLang = 'de';
 
 const pill = document.getElementById('langPill');
+const hint = document.getElementById('langHint');
 const toggleBtn = document.getElementById('langToggle');
 
 function applyLang(lang){
   const t = dict[lang];
   document.documentElement.lang = lang === 'de' ? 'de' : 'pl';
   pill.textContent = lang.toUpperCase();
+
+    if (hint) {
+    hint.textContent = lang === 'de' ? "/ PL" : "/ DE";
+  }
 
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');

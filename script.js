@@ -57,6 +57,13 @@ const dict = {
     "services.nas.5":"WLAN-/Router-Optimierung",
     "services.nas.6":"Einführung & kurze Erklärung",
 
+    "services.web.title":"🌐 SPA · Visitenkarte · Online-CV",
+    "services.web.1":"Single-Page-Websites (schnell, modern, mobil)",
+    "services.web.2":"Online-Visitenkarten für Freelancer & kleine Firmen",
+    "services.web.3":"CV/Portfolio-Seiten (GitHub Pages möglich)",
+    "services.web.4":"Mehrsprachig (DE/PL/EN) + Kontaktbereich",
+    "services.web.5":"Individuelles Design im Stil deiner Marke",
+
     "services.soft.title":"💻 Individuelle Softwarelösungen",
     "services.soft.1":"Kleine Web- & interne Tools",
     "services.soft.2":"Automatisierungen & digitale Formulare",
@@ -144,6 +151,14 @@ const dict = {
     "services.nas.4":"Bezpieczny dostęp zdalny",
     "services.nas.5":"Optymalizacja Wi‑Fi / routera",
     "services.nas.6":"Krótkie szkolenie z obsługi",
+
+    "services.web.title":"🌐 SPA · wizytówka · CV online",
+    "services.web.1":"Strony single-page (szybkie, nowoczesne, mobilne)",
+    "services.web.2":"Wizytówki online dla freelancerów i małych firm",
+    "services.web.3":"Strony CV/portfolio (możliwe na GitHub Pages)",
+    "services.web.4":"Wersje językowe (PL/DE/EN) + sekcja kontakt",
+    "services.web.5":"Indywidualny wygląd dopasowany do Twojej marki",
+
 
     "services.soft.title":"💻 Indywidualne rozwiązania programistyczne",
     "services.soft.1":"Proste aplikacje webowe i narzędzia wewnętrzne",
